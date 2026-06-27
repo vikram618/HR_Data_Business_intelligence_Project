@@ -43,29 +43,11 @@ This project analyzes employee attrition using an HR dataset, covering the full 
 1. Prioritize the Sales Representative role — review overtime load and quota pressure; it's both the highest attrition rate and a major cost driver
 2. Cap or redistribute overtime company-wide — the single most actionable lever identified in the data
 
-## 📁 Repository Structure
-```
-├── data/
-│   ├── HR_Analytics_dirty.csv        # Raw dataset with injected data-quality issues
-│   └── HR_Analytics_clean.csv        # Cleaned dataset used for analysis
-├── notebooks/
-│   └── data_cleaning_eda.ipynb       # Python cleaning + exploratory analysis
-├── sql/
-│   └── business_queries.sql          # SQL queries answering the 4 business questions
-├── dashboard/
-│   └── HR_Attrition_Dashboard.pbix   # Power BI dashboard
-├── reports/
-│   └── HR_Attrition_Insights_Summary.docx  # One-page stakeholder summary
-└── README.md
-```
-
 ## 🚀 How to Reproduce
 1. Clone the repo and open `notebooks/data_cleaning_eda.ipynb` to run the cleaning pipeline
 2. Load `data/HR_Analytics_clean.csv` into SQLite and run `sql/business_queries.sql` to reproduce the business answers
 3. Open `dashboard/HR_Attrition_Dashboard.pbix` in Power BI Desktop to explore the interactive dashboard
 
-## 📷 Dashboard Preview
-*(Add a screenshot of your Power BI dashboard here)*
 
 ## 📬 Contact
 *(Add your name / LinkedIn / email here)*
